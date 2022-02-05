@@ -1,6 +1,6 @@
 import csv
   
-# csv file name
+#Taking csv file name
 file =str(input("Enter fileanme : "))
   
 # initializing the titles and rows list
@@ -26,7 +26,7 @@ with open(file,encoding="utf8") as csvfile:
 # printing the field names
 print('Field names are:' + ', '.join(field for field in fields))
 
-#  printing first 5 rows
+#  printing rows
 print('\n rows are:\n')
 for i in (rows[:x]):
     # parsing each column of a row
